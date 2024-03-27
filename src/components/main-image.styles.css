@@ -1,0 +1,62 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90%;
+  position: relative;
+}
+.main-image-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background-react2.gif");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  min-height: 700px;
+  margin-left: 5px;
+}
+.more-trips-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  padding-left: 1.5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.more-trips-container h2 {
+  color: var(---dark-green);
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.arrow-container {
+  width: 3.5em;
+  height: 3.5em;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px var(---dark-grey);
+  cursor: pointer;
+}
+.arrow-container .arrow {
+  font-size: 2em;
+  opacity: 0.9;
+  color: var(---dark-green);
+}
+
+@media only screen and (max-width: 950px) {
+  .main-image-container {
+    height: 75vh;
+    width: 100%;
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+  .main-image-container {
+    background-size: 80%;
+  }
+}

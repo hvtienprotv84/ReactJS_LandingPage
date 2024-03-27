@@ -1,0 +1,65 @@
+.image-slider {
+  position: relative;
+  min-width: 350px;
+  margin-left:-810px;
+}
+.image-list {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.image-list img {
+  width: 40%;
+  /* border-radius: 5%; */
+  height: 150px;
+}
+.image-slide-navigation {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 30px;
+  right: 5%;
+  bottom: 20%;
+  width: 35%;
+  min-width: 300px;
+  height: 30%;
+  min-height: 45px;
+  top: 40px;
+  right: 30px;
+
+}
+.more-photos {
+  /* background-color: white; */
+  border-radius: 30px;
+  opacity: 0.8;
+  color: var(---bright-green);
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: -10px;
+  margin-left:200px;
+}
+
+.arrow-container {
+  /* opacity: 0.8; */
+  background-color: rgb(255, 0, 0) !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 21%;
+  height: 100%; */
+  pointer-events: auto; /* Sử dụng auto để cho phép sự kiện click */
+  user-select: none; /* Vô hiệu hóa tính năng chọn văn bản */
+  border: 3px solid rgb(242, 255, 0);
+}
+.arrow-container .arrow {
+  font-size: 0.5em;
+  padding: 10%;
+  /* color: var(---bright-green); */
+  color: #00d8ff !important;
+}

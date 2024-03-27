@@ -1,0 +1,59 @@
+:root {
+  ---bright-green: #0d9206;
+  ---dark-green: #789376;
+  ---orange: #ff8800;
+  ---light-grey: #7d7d7d;
+  ---dark-grey: #00000029;
+}
+
+.App {
+  /* width: 100vw; */
+  min-width: 350px;
+  min-height: 700px;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  /* margin: 0;
+  padding: 0; */
+}
+.divider {
+  width: 0;
+  height: 30%;
+  border: 5px solid var(---bright-green);
+  margin: auto;
+}
+
+.left-container {
+  display: flex;
+  width: 53%;
+  flex-direction: column;
+  gap: 0;
+  /* height: 100vh; */
+  min-height: 550px;
+  min-width: 350px;
+}
+
+.right-container {
+  width: 47%;
+  min-width: 350px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+  .left-container {
+    width: 100%;
+    height: 75vh;
+  }
+  .right-container {
+    width: 100%;
+  }
+  .divider {
+    width: 50%;
+    height: 0;
+    margin: auto;
+  }
+}

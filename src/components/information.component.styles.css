@@ -1,0 +1,74 @@
+.information-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: space-evenly;
+  position: relative;
+}
+.myname{
+  font-size: 40px;
+}
+.title h1 {
+  font-size: 4.5em;
+  font-weight: 900;
+  margin: 0;
+  margin: 0.3em 0.3em 0 0.3em;
+  line-height: 105px;
+  animation: 1s ease-in-out 0s 1 slideInFromLeft;
+  filter: drop-shadow(#00000029 0px 16px 21px);
+}
+.body-text {
+  width: 80%;
+  margin: 0 1em 1em;
+  top: 0;
+  text-align: left;
+  color: #7d7d7d;
+  font-size: 1.7em;
+  animation: 3s ease-in 0s 1 appearance;
+}
+.btn {
+  width: 380px;
+  height: 61px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font: normal normal normal 26px/100% "Source Sans 3";
+  background-color: var(---orange);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border: 1px solid var(---orange);
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: var(---orange);
+}
+@media only screen and (max-width: 1200px) {
+  .information-container {
+    text-align: center;
+  }
+  .body-text,
+  .btn {
+    margin: 1em auto;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

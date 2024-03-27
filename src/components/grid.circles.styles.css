@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  gap: 4px;
+  width: 100px;
+  height: 350px;
+  position: absolute;
+  right: 0.5em;
+  top: 25%;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(---bright-green);
+  opacity: 0.1;
+}
