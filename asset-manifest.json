@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactJS_LandingPage/static/css/main.c9996a18.css",
+    "main.js": "/ReactJS_LandingPage/static/js/main.3adcbac6.js",
+    "static/js/488.e3afb485.chunk.js": "/ReactJS_LandingPage/static/js/488.e3afb485.chunk.js",
+    "static/media/2.png": "/ReactJS_LandingPage/static/media/2.e248e9a9d816aa9cff37.png",
+    "static/media/background-react2.gif": "/ReactJS_LandingPage/static/media/background-react2.659e5f8c5275699a8920.gif",
+    "static/media/3.png": "/ReactJS_LandingPage/static/media/3.364852409553a57bf25a.png",
+    "static/media/6.png": "/ReactJS_LandingPage/static/media/6.ad483a99a54f7f22e0b5.png",
+    "static/media/background-react.jpg": "/ReactJS_LandingPage/static/media/background-react.593b3b5b5ee26a62f3ab.jpg",
+    "static/media/1.jpg": "/ReactJS_LandingPage/static/media/1.69adda5cabb0a8c7f734.jpg",
+    "static/media/5.jpg": "/ReactJS_LandingPage/static/media/5.f4e07051f7b672245fc3.jpg",
+    "static/media/4.png": "/ReactJS_LandingPage/static/media/4.0338df4c06f3d80dda47.png",
+    "index.html": "/ReactJS_LandingPage/index.html",
+    "main.c9996a18.css.map": "/ReactJS_LandingPage/static/css/main.c9996a18.css.map",
+    "main.3adcbac6.js.map": "/ReactJS_LandingPage/static/js/main.3adcbac6.js.map",
+    "488.e3afb485.chunk.js.map": "/ReactJS_LandingPage/static/js/488.e3afb485.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9996a18.css",
+    "static/js/main.3adcbac6.js"
+  ]
+}
